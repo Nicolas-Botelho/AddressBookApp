@@ -1,6 +1,6 @@
 # Adderess Book Application
 
-This is a simple Java application that reads a Address Book file, called `AddressBook.txt` and uses its data to answer questions related to the given Address Book.
+This is a simple command line Java application that reads a Address Book file, called `AddressBook.txt` and uses its data to answer questions related to the given Address Book.
 
 ## Test Questions
 
@@ -8,11 +8,16 @@ This is a simple Java application that reads a Address Book file, called `Addres
 2. Who is the oldest person in the address book?
 3. How many days older is Bill than Paul?
 
+### Answers (Considering the standard AddressBook file)
+1. 3 males
+2. Wes Jackson
+3. Bill is 2862 days older than Paul
+
 ## Input Format
 
 1. File named `AddressBook.txt`
 2. One entry per line
 3. Each entry must follow the order:
 ```
-[FULL NAME], [GENDER], [BIRTH DATE]
+[FULL NAME], [GENDER], [BIRTH DATE (DD/MM/YYYY)]
 ```
