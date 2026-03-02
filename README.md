@@ -21,3 +21,19 @@ This is a simple command line Java application that reads a Address Book file, c
 ```
 [FULL NAME], [GENDER], [BIRTH DATE (DD/MM/YYYY)]
 ```
+
+## Technologies Used
+* Java (OpenJDK 21.0.10)
+
+## How to Run?
+
+1. Clone the Repository
+```bash
+git clone https://github.com/Nicolas-Botelho/AddressBookApp.git
+```
+
+2. Compile and Run
+```bash
+javac addressbook/*.java
+java addressbook.Main
+```
