@@ -32,7 +32,9 @@ This is a simple command line Java application that reads a Address Book file, c
 git clone https://github.com/Nicolas-Botelho/AddressBookApp.git
 ```
 
-2. Compile and Run
+2. Go to the repository root directory
+
+3. Compile and Run
 ```bash
 javac addressbook/*.java
 java addressbook.Main
